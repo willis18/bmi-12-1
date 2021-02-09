@@ -13,6 +13,7 @@
 		1A790DCA25D3518300DB8C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DC825D3518300DB8C23 /* Main.storyboard */; };
 		1A790DCC25D3518500DB8C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DCB25D3518500DB8C23 /* Assets.xcassets */; };
 		1A790DCF25D3518500DB8C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DCD25D3518500DB8C23 /* LaunchScreen.storyboard */; };
+		1A790DD925D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DD825D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1A790DCB25D3518500DB8C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A790DCE25D3518500DB8C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A790DD025D3518500DB8C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A790DD825D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "%E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1A790DCB25D3518500DB8C23 /* Assets.xcassets */,
 				1A790DCD25D3518500DB8C23 /* LaunchScreen.storyboard */,
 				1A790DD025D3518500DB8C23 /* Info.plist */,
+				1A790DD825D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png */,
 			);
 			path = "bmi 12-1";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A790DCF25D3518500DB8C23 /* LaunchScreen.storyboard in Resources */,
+				1A790DD925D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png in Resources */,
 				1A790DCC25D3518500DB8C23 /* Assets.xcassets in Resources */,
 				1A790DCA25D3518300DB8C23 /* Main.storyboard in Resources */,
 			);
@@ -288,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bmi 12-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bmi 12-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
