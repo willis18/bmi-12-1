@@ -79,4 +79,17 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func scMF(_ sender: UISegmentedControl)
+    {
+        if sender.selectedSegmentIndex == 0
+        {
+            //남성
+            
+        }
+        else
+        {
+            //여성
+            
+        }
+    }
 }
