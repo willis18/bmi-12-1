@@ -67,4 +67,16 @@ class ViewController: UIViewController {
             lblResult.text = "BMI : \(shortenedBmi), 판정 : \(body)"
         }
     }
+    @IBAction func switchOnOff(_ sender: UISwitch)
+    {
+        if sender.isOn
+        {
+            
+        }
+        else
+        {
+            
+        }
+    }
+    
 }
