@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--BMI-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bmi_12_1" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,7 +98,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="RGh-aq-vUq"/>
+                    <tabBarItem key="tabBarItem" title="BMI" image="person.fill.questionmark" catalog="system" id="RGh-aq-vUq"/>
                     <connections>
                         <outlet property="lblResult" destination="KgM-CP-UYG" id="242-ze-D8I"/>
                         <outlet property="txtHeight" destination="KMj-zC-Cri" id="YiX-aC-out"/>
@@ -108,6 +108,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="75"/>
+        </scene>
+        <!--Video-->
+        <scene sceneID="O69-BS-lf4">
+            <objects>
+                <viewController id="c4y-Ef-QWw" customClass="VideoViewController" customModule="bmi_12_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ruz-yp-UX5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DlJ-Ub-Od5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Video" image="video" catalog="system" id="35f-Yk-Qxx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNV-6u-Dbu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="785"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UJD-A7-piq">
@@ -120,6 +136,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="pO9-wl-o9H"/>
+                        <segue destination="c4y-Ef-QWw" kind="relationship" relationship="viewControllers" id="SKn-VQ-NJi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ER-xz-AHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -129,6 +146,11 @@
     </scenes>
     <resources>
         <image name="%E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png" width="1200" height="1200"/>
+        <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
+        <image name="video" catalog="system" width="128" height="83"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
