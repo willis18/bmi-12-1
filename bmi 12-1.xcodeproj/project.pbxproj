@@ -15,7 +15,8 @@
 		1A790DCF25D3518500DB8C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DCD25D3518500DB8C23 /* LaunchScreen.storyboard */; };
 		1A790DD925D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DD825D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png */; };
 		1A790DDC25DD556D00DB8C23 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DDB25DD556D00DB8C23 /* VideoViewController.swift */; };
-		1A790DDF25DD5C4500DB8C23 /* Watch_ What Does Your Child’s BMI Mean?– Healthfirst Healthy Living.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DDE25DD5C4500DB8C23 /* Watch_ What Does Your Child’s BMI Mean?– Healthfirst Healthy Living.mp4 */; };
+		1A790DDF25DD5C4500DB8C23 /* bmi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1A790DDE25DD5C4500DB8C23 /* bmi.mp4 */; };
+		1A790DE325DE884D00DB8C23 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DE225DE884D00DB8C23 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		1A790DD025D3518500DB8C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A790DD825D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "%E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png"; sourceTree = "<group>"; };
 		1A790DDB25DD556D00DB8C23 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
-		1A790DDE25DD5C4500DB8C23 /* Watch_ What Does Your Child’s BMI Mean?– Healthfirst Healthy Living.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Watch_ What Does Your Child’s BMI Mean?– Healthfirst Healthy Living.mp4"; sourceTree = "<group>"; };
+		1A790DDE25DD5C4500DB8C23 /* bmi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bmi.mp4; sourceTree = "<group>"; };
+		1A790DE225DE884D00DB8C23 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				1A790DC225D3518300DB8C23 /* AppDelegate.swift */,
 				1A790DC425D3518300DB8C23 /* SceneDelegate.swift */,
+				1A790DE225DE884D00DB8C23 /* WebViewController.swift */,
 				1A790DC625D3518300DB8C23 /* ViewController.swift */,
 				1A790DC825D3518300DB8C23 /* Main.storyboard */,
 				1A790DDB25DD556D00DB8C23 /* VideoViewController.swift */,
@@ -71,7 +74,7 @@
 				1A790DCD25D3518500DB8C23 /* LaunchScreen.storyboard */,
 				1A790DD025D3518500DB8C23 /* Info.plist */,
 				1A790DD825D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png */,
-				1A790DDE25DD5C4500DB8C23 /* Watch_ What Does Your Child’s BMI Mean?– Healthfirst Healthy Living.mp4 */,
+				1A790DDE25DD5C4500DB8C23 /* bmi.mp4 */,
 			);
 			path = "bmi 12-1";
 			sourceTree = "<group>";
@@ -134,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A790DCF25D3518500DB8C23 /* LaunchScreen.storyboard in Resources */,
-				1A790DDF25DD5C4500DB8C23 /* Watch_ What Does Your Child’s BMI Mean?– Healthfirst Healthy Living.mp4 in Resources */,
+				1A790DDF25DD5C4500DB8C23 /* bmi.mp4 in Resources */,
 				1A790DD925D3564A00DB8C23 /* %E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png in Resources */,
 				1A790DCC25D3518500DB8C23 /* Assets.xcassets in Resources */,
 				1A790DCA25D3518300DB8C23 /* Main.storyboard in Resources */,
@@ -151,6 +154,7 @@
 				1A790DC725D3518300DB8C23 /* ViewController.swift in Sources */,
 				1A790DC325D3518300DB8C23 /* AppDelegate.swift in Sources */,
 				1A790DDC25DD556D00DB8C23 /* VideoViewController.swift in Sources */,
+				1A790DE325DE884D00DB8C23 /* WebViewController.swift in Sources */,
 				1A790DC525D3518300DB8C23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

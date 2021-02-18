@@ -109,6 +109,47 @@
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="75"/>
         </scene>
+        <!--WEB-->
+        <scene sceneID="wHm-KS-5Ni">
+            <objects>
+                <viewController id="62K-yn-tYr" customClass="WebViewController" customModule="bmi_12_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hr8-ai-gVb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqD-iC-ou9">
+                                <rect key="frame" x="20" y="736" width="374" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="37"/>
+                                <state key="normal" title="NAVER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goNaver:" destination="62K-yn-tYr" eventType="touchUpInside" id="BwQ-Kr-jZY"/>
+                                </connections>
+                            </button>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a9M-bF-Uxq">
+                                <rect key="frame" x="20" y="44" width="374" height="684"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wV6-ba-sCN"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="WEB" image="network" catalog="system" id="zxs-XW-eYh"/>
+                    <connections>
+                        <outlet property="webView" destination="a9M-bF-Uxq" id="el2-XD-SPN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIP-je-wgk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20.289855072463769" y="831.69642857142856"/>
+        </scene>
         <!--Video-->
         <scene sceneID="O69-BS-lf4">
             <objects>
@@ -116,14 +157,24 @@
                     <view key="view" contentMode="scaleToFill" id="ruz-yp-UX5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSg-LS-Jt5">
+                                <rect key="frame" x="63" y="196" width="288" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play" image="%E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png"/>
+                                <connections>
+                                    <action selector="playVideo:" destination="c4y-Ef-QWw" eventType="touchUpInside" id="De1-RW-9ho"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="DlJ-Ub-Od5"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Video" image="video" catalog="system" id="35f-Yk-Qxx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SNV-6u-Dbu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="785"/>
+            <point key="canvasLocation" x="944.92753623188412" y="784.82142857142856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UJD-A7-piq">
@@ -137,6 +188,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="pO9-wl-o9H"/>
                         <segue destination="c4y-Ef-QWw" kind="relationship" relationship="viewControllers" id="SKn-VQ-NJi"/>
+                        <segue destination="62K-yn-tYr" kind="relationship" relationship="viewControllers" id="pDY-FE-nJB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ER-xz-AHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -146,11 +198,9 @@
     </scenes>
     <resources>
         <image name="%E2%80%94Pngtree%E2%80%94grey%20fillet%20weight%20scale_3458018.png" width="1200" height="1200"/>
+        <image name="network" catalog="system" width="128" height="121"/>
         <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
         <image name="video" catalog="system" width="128" height="83"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
